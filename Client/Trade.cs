@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Client
 {
-    public class Trade
+    public class Trade: IExchangeData
     {
         /// <summary>
         /// Валютная пара
